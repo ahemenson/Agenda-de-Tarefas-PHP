@@ -32,7 +32,7 @@
 		
 	}
 	
-	function traduz_data_para_usuario($data){
+	function traduz_data_para_exibir($data){
 		if($data == "" or $data == "0000-00-00"){
 			return "";			
 		}
